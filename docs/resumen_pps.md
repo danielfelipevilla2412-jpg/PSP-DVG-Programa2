@@ -21,7 +21,7 @@ Lenguaje: C# / .NET 9
 | Fase | Plan | Real |
 |---|---:|---:|
 | Planificación | 35 | 46 |
-| Diseño | 35 | - |
+| Diseño | 35 | 40 |
 | Código | 75 | - |
 | Compilación | 10 | - |
 | Pruebas | 55 | - |
