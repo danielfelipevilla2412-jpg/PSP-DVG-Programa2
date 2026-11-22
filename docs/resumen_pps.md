@@ -23,6 +23,8 @@ Lenguaje: C# / .NET 9
 | Planificación | 35 | 46 |
 | Diseño | 35 | 40 |
 | Código | 75 | 65 |
+| Revisión de código | 10 | - |
+| Revisión de código | 10 | - |
 | Compilación | 10 | - |
 | Pruebas | 55 | - |
 | Postmortem | 30 | - |

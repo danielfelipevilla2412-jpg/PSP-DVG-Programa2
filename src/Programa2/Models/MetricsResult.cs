@@ -1,3 +1,4 @@
+namespace Programa2.Models;
 public class MetricsResult
 {
     public int FileCount { get; set; }

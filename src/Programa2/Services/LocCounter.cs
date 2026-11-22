@@ -19,12 +19,17 @@ public class LocCounter
                 continue;
             }
 
-            if (excludeNestedClasses &&
-                token.Parent?.AncestorsAndSelf()
-                    .OfType<ClassDeclarationSyntax>()
-                    .FirstOrDefault() != node)
+            if (excludeNestedClasses)
             {
-                continue;
+                var nearestClass = token.Parent?
+                    .AncestorsAndSelf()
+                    .OfType<ClassDeclarationSyntax>()
+                    .FirstOrDefault();
+
+                if (nearestClass != null && nearestClass != node)
+                {
+                    continue;
+                }
             }
 
             int startLine = source.Lines
@@ -47,17 +52,21 @@ public class LocCounter
     }
 
     public int CountLogicalLines(
-        SyntaxNode node,
-        bool excludeNestedClasses = false)
+     SyntaxNode node,
+     bool excludeNestedClasses = false)
     {
         var nodes = node.DescendantNodesAndSelf();
 
         if (excludeNestedClasses)
         {
             nodes = nodes.Where(item =>
-                item.AncestorsAndSelf()
+            {
+                var nearestClass = item.AncestorsAndSelf()
                     .OfType<ClassDeclarationSyntax>()
-                    .FirstOrDefault() == node);
+                    .FirstOrDefault();
+
+                return nearestClass == null || nearestClass == node;
+            });
         }
 
         return nodes.Count(IsLogicalInstruction);
