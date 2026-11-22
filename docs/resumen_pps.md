@@ -27,8 +27,8 @@ Lenguaje: C# / .NET 9
 | Revisión de código | 10 | - |
 | Compilación | 10 | 11 |
 | Pruebas | 55 | 35 |
-| Postmortem | 30 | - |
-| Total | 240 | - |
+| Postmortem | 30 | 30 |
+| Total | 240 | 237 |
 
 ## Indicadores
 
