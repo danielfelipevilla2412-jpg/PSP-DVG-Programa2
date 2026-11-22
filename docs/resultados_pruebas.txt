@@ -1,0 +1,101 @@
+Compilación iniciada a las 22/11/2026 1:25:12 p. m..
+     1>Proyecto "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\Programa2.slnx" en el nodo 1 (Restore destinos).
+     1>ValidateSolutionConfiguration:
+         Compilando la configuración de soluciones "Debug|Any CPU".
+       _GetAllRestoreProjectPathItems:
+         Determinando los proyectos que se van a restaurar...
+       Restore:
+         La validación de la cadena de certificados X.509 utilizará el almacén de confianza predeterminado seleccionado por .NET para la firma de código.
+         La validación de la cadena de certificados X.509 utilizará el almacén de confianza predeterminado seleccionado por .NET para la marca de tiempo.
+         El archivo de recursos no ha cambiado, así que se omitirá su escritura. Ruta de acceso: C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\obj\project.assets.json
+         El archivo de recursos no ha cambiado, así que se omitirá su escritura. Ruta de acceso: C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\obj\project.assets.json
+         Se ha restaurado C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\Programa2.csproj (en 34 ms).
+         Se ha restaurado C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj (en 34 ms).
+         
+         Archivos de NuGet Config usados:
+             C:\Users\danie\AppData\Roaming\NuGet\NuGet.Config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+         
+         Fuentes usadas:
+             https://api.nuget.org/v3/index.json
+             C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+             C:\Program Files\dotnet\library-packs
+         Todos los proyectos están actualizados para la restauración.
+     1>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\Programa2.slnx" (Restore destinos).
+   1:2>Proyecto "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\Programa2.slnx" en el nodo 1 (VSTest destinos).
+     1>ValidateSolutionConfiguration:
+         Compilando la configuración de soluciones "Debug|Any CPU".
+   1:2>El proyecto "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\Programa2.slnx" (1:2) está compilando "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (3:6) en el nodo 2 (VSTest destinos).
+     3>BuildProject:
+         Compilación iniciada, espere...
+   3:6>El proyecto "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (3:6) está compilando "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (3:7) en el nodo 2 (destinos predeterminados).
+   3:7>El proyecto "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (3:7) está compilando "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\Programa2.csproj" (2:9) en el nodo 1 (destinos predeterminados).
+     2>GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CoreGenerateAssemblyInfo:
+       Se omitirá el destino "CoreGenerateAssemblyInfo" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _GenerateSourceLinkFile:
+         El archivo de Source Link 'C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\obj\Debug\net9.0\Programa2.sourcelink.json' está actualizado.
+       CoreCompile:
+       Se omitirá el destino "CoreCompile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CreateAppHost:
+       Se omitirá el destino "_CreateAppHost" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Se omitirá el destino "_CopyOutOfDateSourceItemsToOutputDirectory" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildDependencyFile:
+       Se omitirá el destino "GenerateBuildDependencyFile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildRuntimeConfigurationFiles:
+       Se omitirá el destino "GenerateBuildRuntimeConfigurationFiles" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CopyFilesToOutputDirectory:
+         Programa2 -> C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\bin\Debug\net9.0\Programa2.dll
+     2>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\Programa2.csproj" (destinos predeterminados).
+     3>GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CoreGenerateAssemblyInfo:
+       Se omitirá el destino "CoreGenerateAssemblyInfo" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _GenerateSourceLinkFile:
+         El archivo de Source Link 'C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\obj\Debug\net9.0\Programa2.Tests.sourcelink.json' está actualizado.
+       CoreCompile:
+       Se omitirá el destino "CoreCompile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Se omitirá el destino "_CopyOutOfDateSourceItemsToOutputDirectory" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildDependencyFile:
+       Se omitirá el destino "GenerateBuildDependencyFile" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       GenerateBuildRuntimeConfigurationFiles:
+       Se omitirá el destino "GenerateBuildRuntimeConfigurationFiles" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CopyFilesToOutputDirectory:
+         Programa2.Tests -> C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\bin\Debug\net9.0\Programa2.Tests.dll
+     3>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (destinos predeterminados).
+     3>BuildProject:
+         Se completó la compilación.
+         
+Serie de pruebas para C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\bin\Debug\net9.0\Programa2.Tests.dll (.NETCoreApp,Version=v9.0)
+1 archivos de prueba en total coincidieron con el patrón especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.17)
+[xUnit.net 00:00:00.06]   Discovering: Programa2.Tests
+[xUnit.net 00:00:00.09]   Discovered:  Programa2.Tests
+[xUnit.net 00:00:00.09]   Starting:    Programa2.Tests
+[xUnit.net 00:00:00.25]   Finished:    Programa2.Tests
+  Correctas Programa2.Tests.CodeAnalyzerTests.AnalizarArchivoConErrorSintactico_DebeRechazarlo [75 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.AnalizarArchivo_DebeIdentificarClaseYMetodo [35 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.RutaInexistente_DebeGenerarExcepcion [< 1 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.ContarLineasLogicas_DebeIgnorarComentarios [< 1 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.RutaVacia_DebeSerRechazada [< 1 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.ContarLineasLogicas_DebeContarDeclaraciones [7 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.AnalizarClasesAnidadas_DebeIdentificarlasPorSeparado [6 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.ContarLineasFisicas_DebeIgnorarComentariosYVacias [< 1 ms]
+  Correctas Programa2.Tests.CodeAnalyzerTests.ArchivoNoCSharp_DebeSerRechazado [1 ms]
+
+La serie de pruebas se ejecutó correctamente.
+Pruebas totales: 9
+     Correcto: 9
+ Tiempo total: 0,6574 Segundos
+     3>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (VSTest destinos).
+     1>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\Programa2.slnx" (VSTest destinos).
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.53
