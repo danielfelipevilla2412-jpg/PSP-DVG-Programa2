@@ -11,12 +11,12 @@ Compilación iniciada a las 22/11/2026 1:25:12 p. m..
          El archivo de recursos no ha cambiado, así que se omitirá su escritura. Ruta de acceso: C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\obj\project.assets.json
          Se ha restaurado C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\src\Programa2\Programa2.csproj (en 34 ms).
          Se ha restaurado C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj (en 34 ms).
-         
+
          Archivos de NuGet Config usados:
              C:\Users\danie\AppData\Roaming\NuGet\NuGet.Config
              C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
              C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
-         
+
          Fuentes usadas:
              https://api.nuget.org/v3/index.json
              C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
@@ -69,7 +69,7 @@ Compilación iniciada a las 22/11/2026 1:25:12 p. m..
      3>Compilación del proyecto terminada "C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\Programa2.Tests.csproj" (destinos predeterminados).
      3>BuildProject:
          Se completó la compilación.
-         
+
 Serie de pruebas para C:\Users\danie\OneDrive\Desktop\PSP-DVG-Programa2\tests\Programa2.Tests\bin\Debug\net9.0\Programa2.Tests.dll (.NETCoreApp,Version=v9.0)
 1 archivos de prueba en total coincidieron con el patrón especificado.
 [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.17)
